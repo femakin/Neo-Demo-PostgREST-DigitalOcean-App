@@ -1,19 +1,34 @@
-# neodemovuedigitaloceanproject
+# Neon-Vue-DigitalOcean-Demo-Project
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to the Neon-Vue-DigitalOcean-Demo-Project! This app showcases the power of Vue, DigitalOcean, and Neon for database management.
 
-## Recommended IDE Setup
+# Technologies Used
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Neon](https://neon-bindings.com/docs)
+- [VueJS](https://vuejs.org/)
+- [DigitalOcean](https://www.digitalocean.com/)
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+# Getting Started
 
-## Project Setup
+## Clone the Repository
 
-```sh
+First, clone this repository to your local machine:
+
+```
+git clone https://github.com/femakin/Neo-Demo-PostgREST-DigitalOcean-App
+
+```
+
+cd Neo-Demo-PostgREST-DigitalOcean-App
+
+
+Install Dependencies
+Navigate to the project directory and install the necessary dependencies:
+
+```
 npm install
+
 ```
 
 ### Compile and Hot-Reload for Development
@@ -27,6 +42,15 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ### Run Unit Tests with [Vitest](https://vitest.dev/)
 
