@@ -180,15 +180,27 @@ const handleDeleteProject = (projectId) => {
           <p className="text-sm">End Date: {{ project.end_date }}</p>
           <p className="text-sm">ID: {{ project.id }}</p>
 
-          <button @click="handleDeleteProject(project.id)"
-            className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
-            Delete
-          </button>
+          <div className="flex gap-12 flex-wrap">
 
-          <button @click="handleShowUpdateModal(project.id)"
-            className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">
-            Update
-          </button>
+            <div>
+              <button @click="handleDeleteProject(project.id)"
+                className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                Delete
+              </button>
+
+
+            </div>
+
+
+            <div>
+              <button @click="handleShowUpdateModal(project.id)"
+                className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">
+                Update
+              </button>
+            </div>
+
+
+          </div>
         </div>
       </div>
     </div>
